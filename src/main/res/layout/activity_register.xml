@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#646B77"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radiogroup">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/radio1"
+        android:text="Male"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/radio2"
+        android:text="Female"
+
+        />
+        </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Name*"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:id="@+id/edt1"
+        android:backgroundTint="#EDEBEB"
+        android:background="@drawable/materialview"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Mobile No.*"
+        android:backgroundTint="#EDEBEB"
+        android:id="@+id/edt2"
+        android:drawableStart="@drawable/baseline_call_24"
+        android:background="@drawable/materialview"
+      />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/baseline_location_city_24"
+        android:hint="City*"
+        android:id="@+id/edt3"
+        android:backgroundTint="#EDEBEB"
+        android:background="@drawable/materialview"
+      />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Education*"
+        android:drawableStart="@drawable/eductaion"
+        android:id="@+id/edt4"
+        android:backgroundTint="#EDEBEB"
+        android:background="@drawable/materialview"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Date"
+        android:drawableStart="@drawable/baseline_date_range_24"
+        android:id="@+id/edt5"
+        android:backgroundTint="#EDEBEB"
+        android:background="@drawable/materialview"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:id="@+id/subbtn"
+        android:background="@drawable/buttonview"
+      />
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/scanner1"
+    tools:context=".MainActivity">
+<!--    #BCB3B0-->
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="79dp"
+        android:text="WELCOME"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="79dp"
+            android:text="Select Type"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+        <Spinner
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+           android:backgroundTint="@color/white"
+            android:layout_marginRight="30dp"
+            android:popupBackground="#AFD5E1"
+            android:id="@+id/spinner"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/ET1"
+        android:hint="Mobile No."
+        android:textColor="#9E9696"
+        android:textColorHint="@color/white"
+        android:background="@drawable/maineditview"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/ET2"
+        android:hint="Email id"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:visibility="invisible"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/ET3"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/maineditview"
+        android:hint="Password"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:backgroundTint="#244D63"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnlogin"
+        />
+</LinearLayout>
