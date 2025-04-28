@@ -1,2 +1,3 @@
 # QRGenerator
-Easy-to-use QR Code Generator lets you create beautiful and functional QR codes for websites, text, Wi-Fi, contacts, and more. Personalize your codes with colors, logos, and styles to match your brand. Whether you're promoting a business, event, or personal project, generating, saving, and sharing QR codes has never been simpler.
+The QR Code Generator app allows users to easily create personalized QR codes that store essential information such as their name, company, and phone number etc.
+Users simply input their details into the app, and the app generates a unique QR code. When scanned, the QR code displays the stored information, making it convenient for sharing contact details, networking, or business purposes. This app provides a simple and efficient way to exchange information without the need for manual entry.
